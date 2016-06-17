@@ -1,0 +1,877 @@
+- cue "Init"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+# 
+Dyew:/pool/mainfolder /Users/install/Documents/Dyew/SonsGran/
+# 
+Dyew:/xybap/numSources 11
+Dyew:/xybap/numAux 11
+# 
+Dyew:/xybap/eq.1/bands 4
+Dyew:/xybap/eq.1/audio/bypass 0
+Dyew:/xybap/eq.1/audio/gain 0.000000
+Dyew:/xybap/eq.1/audio/mix 100.000000
+Dyew:/xybap/eq.1/audio/mute 0
+Dyew:/xybap/eq.1/filter.1/type highpass
+Dyew:/xybap/eq.1/filter.1/frequency 90.000000
+Dyew:/xybap/eq.1/filter.1/gain 0.000000
+Dyew:/xybap/eq.1/filter.1/bandwidth 1.000000
+Dyew:/xybap/eq.1/filter.2/type peaknotch
+Dyew:/xybap/eq.1/filter.2/frequency 1000.000000
+Dyew:/xybap/eq.1/filter.2/gain 0.000000
+Dyew:/xybap/eq.1/filter.2/bandwidth 1.000000
+Dyew:/xybap/eq.1/filter.3/type peaknotch
+Dyew:/xybap/eq.1/filter.3/frequency 1000.000000
+Dyew:/xybap/eq.1/filter.3/gain 0.000000
+Dyew:/xybap/eq.1/filter.3/bandwidth 1.000000
+Dyew:/xybap/eq.1/filter.4/type peaknotch
+Dyew:/xybap/eq.1/filter.4/frequency 1000.000000
+Dyew:/xybap/eq.1/filter.4/gain 0.000000
+Dyew:/xybap/eq.1/filter.4/bandwidth 1.000000
+# 
+Dyew:/xybap/eq.2/bands 4
+Dyew:/xybap/eq.2/audio/bypass 0
+Dyew:/xybap/eq.2/audio/gain 0.000000
+Dyew:/xybap/eq.2/audio/mix 100.000000
+Dyew:/xybap/eq.2/audio/mute 0
+Dyew:/xybap/eq.2/filter.1/type highpass
+Dyew:/xybap/eq.2/filter.1/frequency 90.000000
+Dyew:/xybap/eq.2/filter.1/gain 0.000000
+Dyew:/xybap/eq.2/filter.1/bandwidth 1.000000
+Dyew:/xybap/eq.2/filter.2/type peaknotch
+Dyew:/xybap/eq.2/filter.2/frequency 1000.000000
+Dyew:/xybap/eq.2/filter.2/gain 0.000000
+Dyew:/xybap/eq.2/filter.2/bandwidth 1.000000
+Dyew:/xybap/eq.2/filter.3/type peaknotch
+Dyew:/xybap/eq.2/filter.3/frequency 1000.000000
+Dyew:/xybap/eq.2/filter.3/gain 0.000000
+Dyew:/xybap/eq.2/filter.3/bandwidth 1.000000
+Dyew:/xybap/eq.2/filter.4/type peaknotch
+Dyew:/xybap/eq.2/filter.4/frequency 1000.000000
+Dyew:/xybap/eq.2/filter.4/gain 0.000000
+Dyew:/xybap/eq.2/filter.4/bandwidth 1.000000
+# 
+Dyew:/xybap/eq.3/bands 4
+Dyew:/xybap/eq.3/audio/bypass 0
+Dyew:/xybap/eq.3/audio/gain 0.000000
+Dyew:/xybap/eq.3/audio/mix 100.000000
+Dyew:/xybap/eq.3/audio/mute 0
+Dyew:/xybap/eq.3/filter.1/type highpass
+Dyew:/xybap/eq.3/filter.1/frequency 90.000000
+Dyew:/xybap/eq.3/filter.1/gain 0.000000
+Dyew:/xybap/eq.3/filter.1/bandwidth 1.000000
+Dyew:/xybap/eq.3/filter.2/type peaknotch
+Dyew:/xybap/eq.3/filter.2/frequency 1000.000000
+Dyew:/xybap/eq.3/filter.2/gain 0.000000
+Dyew:/xybap/eq.3/filter.2/bandwidth 1.000000
+Dyew:/xybap/eq.3/filter.3/type peaknotch
+Dyew:/xybap/eq.3/filter.3/frequency 1000.000000
+Dyew:/xybap/eq.3/filter.3/gain 0.000000
+Dyew:/xybap/eq.3/filter.3/bandwidth 1.000000
+Dyew:/xybap/eq.3/filter.4/type peaknotch
+Dyew:/xybap/eq.3/filter.4/frequency 1000.000000
+Dyew:/xybap/eq.3/filter.4/gain 0.000000
+Dyew:/xybap/eq.3/filter.4/bandwidth 1.000000
+# 
+Dyew:/xybap/eq.4/bands 4
+Dyew:/xybap/eq.4/audio/bypass 0
+Dyew:/xybap/eq.4/audio/gain 0.000000
+Dyew:/xybap/eq.4/audio/mix 100.000000
+Dyew:/xybap/eq.4/audio/mute 0
+Dyew:/xybap/eq.4/filter.1/type highpass
+Dyew:/xybap/eq.4/filter.1/frequency 90.000000
+Dyew:/xybap/eq.4/filter.1/gain 0.000000
+Dyew:/xybap/eq.4/filter.1/bandwidth 1.000000
+Dyew:/xybap/eq.4/filter.2/type peaknotch
+Dyew:/xybap/eq.4/filter.2/frequency 1000.000000
+Dyew:/xybap/eq.4/filter.2/gain 0.000000
+Dyew:/xybap/eq.4/filter.2/bandwidth 1.000000
+Dyew:/xybap/eq.4/filter.3/type peaknotch
+Dyew:/xybap/eq.4/filter.3/frequency 1000.000000
+Dyew:/xybap/eq.4/filter.3/gain 0.000000
+Dyew:/xybap/eq.4/filter.3/bandwidth 1.000000
+Dyew:/xybap/eq.4/filter.4/type peaknotch
+Dyew:/xybap/eq.4/filter.4/frequency 1000.000000
+Dyew:/xybap/eq.4/filter.4/gain 0.000000
+Dyew:/xybap/eq.4/filter.4/bandwidth 1.000000
+# 
+Dyew:/xybap/eq.5/bands 4
+Dyew:/xybap/eq.5/audio/bypass 0
+Dyew:/xybap/eq.5/audio/gain 0.000000
+Dyew:/xybap/eq.5/audio/mix 100.000000
+Dyew:/xybap/eq.5/audio/mute 0
+Dyew:/xybap/eq.5/filter.1/type highpass
+Dyew:/xybap/eq.5/filter.1/frequency 90.000000
+Dyew:/xybap/eq.5/filter.1/gain 0.000000
+Dyew:/xybap/eq.5/filter.1/bandwidth 1.000000
+Dyew:/xybap/eq.5/filter.2/type peaknotch
+Dyew:/xybap/eq.5/filter.2/frequency 1000.000000
+Dyew:/xybap/eq.5/filter.2/gain 0.000000
+Dyew:/xybap/eq.5/filter.2/bandwidth 1.000000
+Dyew:/xybap/eq.5/filter.3/type peaknotch
+Dyew:/xybap/eq.5/filter.3/frequency 1000.000000
+Dyew:/xybap/eq.5/filter.3/gain 0.000000
+Dyew:/xybap/eq.5/filter.3/bandwidth 1.000000
+Dyew:/xybap/eq.5/filter.4/type peaknotch
+Dyew:/xybap/eq.5/filter.4/frequency 1000.000000
+Dyew:/xybap/eq.5/filter.4/gain 0.000000
+Dyew:/xybap/eq.5/filter.4/bandwidth 1.000000
+# 
+Dyew:/xybap/eq.6/bands 4
+Dyew:/xybap/eq.6/audio/bypass 0
+Dyew:/xybap/eq.6/audio/gain 0.000000
+Dyew:/xybap/eq.6/audio/mix 100.000000
+Dyew:/xybap/eq.6/audio/mute 0
+Dyew:/xybap/eq.6/filter.1/type highpass
+Dyew:/xybap/eq.6/filter.1/frequency 90.000000
+Dyew:/xybap/eq.6/filter.1/gain 0.000000
+Dyew:/xybap/eq.6/filter.1/bandwidth 1.000000
+Dyew:/xybap/eq.6/filter.2/type peaknotch
+Dyew:/xybap/eq.6/filter.2/frequency 1000.000000
+Dyew:/xybap/eq.6/filter.2/gain 0.000000
+Dyew:/xybap/eq.6/filter.2/bandwidth 1.000000
+Dyew:/xybap/eq.6/filter.3/type peaknotch
+Dyew:/xybap/eq.6/filter.3/frequency 1000.000000
+Dyew:/xybap/eq.6/filter.3/gain 0.000000
+Dyew:/xybap/eq.6/filter.3/bandwidth 1.000000
+Dyew:/xybap/eq.6/filter.4/type peaknotch
+Dyew:/xybap/eq.6/filter.4/frequency 1000.000000
+Dyew:/xybap/eq.6/filter.4/gain 0.000000
+Dyew:/xybap/eq.6/filter.4/bandwidth 1.000000
+# 
+Dyew:/xybap/eq.7/bands 4
+Dyew:/xybap/eq.7/audio/bypass 0
+Dyew:/xybap/eq.7/audio/gain 0.000000
+Dyew:/xybap/eq.7/audio/mix 100.000000
+Dyew:/xybap/eq.7/audio/mute 0
+Dyew:/xybap/eq.7/filter.1/type highpass
+Dyew:/xybap/eq.7/filter.1/frequency 90.000000
+Dyew:/xybap/eq.7/filter.1/gain 0.000000
+Dyew:/xybap/eq.7/filter.1/bandwidth 1.000000
+Dyew:/xybap/eq.7/filter.2/type peaknotch
+Dyew:/xybap/eq.7/filter.2/frequency 1000.000000
+Dyew:/xybap/eq.7/filter.2/gain 0.000000
+Dyew:/xybap/eq.7/filter.2/bandwidth 1.000000
+Dyew:/xybap/eq.7/filter.3/type peaknotch
+Dyew:/xybap/eq.7/filter.3/frequency 1000.000000
+Dyew:/xybap/eq.7/filter.3/gain 0.000000
+Dyew:/xybap/eq.7/filter.3/bandwidth 1.000000
+Dyew:/xybap/eq.7/filter.4/type peaknotch
+Dyew:/xybap/eq.7/filter.4/frequency 1000.000000
+Dyew:/xybap/eq.7/filter.4/gain 0.000000
+Dyew:/xybap/eq.7/filter.4/bandwidth 1.000000
+# 
+Dyew:/xybap/eq.8/bands 4
+Dyew:/xybap/eq.8/audio/bypass 0
+Dyew:/xybap/eq.8/audio/gain 0.000000
+Dyew:/xybap/eq.8/audio/mix 100.000000
+Dyew:/xybap/eq.8/audio/mute 0
+Dyew:/xybap/eq.8/filter.1/type highpass
+Dyew:/xybap/eq.8/filter.1/frequency 90.000000
+Dyew:/xybap/eq.8/filter.1/gain 0.000000
+Dyew:/xybap/eq.8/filter.1/bandwidth 1.000000
+Dyew:/xybap/eq.8/filter.2/type peaknotch
+Dyew:/xybap/eq.8/filter.2/frequency 1000.000000
+Dyew:/xybap/eq.8/filter.2/gain 0.000000
+Dyew:/xybap/eq.8/filter.2/bandwidth 1.000000
+Dyew:/xybap/eq.8/filter.3/type peaknotch
+Dyew:/xybap/eq.8/filter.3/frequency 1000.000000
+Dyew:/xybap/eq.8/filter.3/gain 0.000000
+Dyew:/xybap/eq.8/filter.3/bandwidth 1.000000
+Dyew:/xybap/eq.8/filter.4/type peaknotch
+Dyew:/xybap/eq.8/filter.4/frequency 1000.000000
+Dyew:/xybap/eq.8/filter.4/gain 0.000000
+Dyew:/xybap/eq.8/filter.4/bandwidth 1.000000
+# 
+Dyew:/Hverb~/IR.1/file/path "Machintoc:/Users/install/Documents/Dyew/IRquadris/02- Churches/Cenakel Chapel/09 m-q 6.0m Cenakel Chapel/CC.1.wav"
+Dyew:/Hverb~/IR.1/gain -6.000000
+Dyew:/Hverb~/IR.2/file/path "Machintoc:/Users/install/Documents/Dyew/IRquadris/02- Churches/Cenakel Chapel/09 m-q 6.0m Cenakel Chapel/CC.2.wav"
+Dyew:/Hverb~/IR.2/gain -6.000000
+Dyew:/Hverb~/IR.3/file/path "Machintoc:/Users/install/Documents/Dyew/IRquadris/02- Churches/Cenakel Chapel/09 m-q 6.0m Cenakel Chapel/CC.3.wav"
+Dyew:/Hverb~/IR.3/gain -6.000000
+Dyew:/Hverb~/IR.4/file/path "Machintoc:/Users/install/Documents/Dyew/IRquadris/02- Churches/Cenakel Chapel/09 m-q 6.0m Cenakel Chapel/CC.4.wav"
+Dyew:/Hverb~/IR.4/gain -6.000000
+Dyew:/Hverb~/IR.5/file/path "Machintoc:/Users/install/Documents/Dyew/IRquadris/02- Churches/Cenakel Chapel/09 m-q 6.0m Cenakel Chapel/CC.1.wav"
+Dyew:/Hverb~/IR.6/gain -6.000000
+Dyew:/Hverb~/IR.6/file/path "Machintoc:/Users/install/Documents/Dyew/IRquadris/02- Churches/Cenakel Chapel/09 m-q 6.0m Cenakel Chapel/CC.2.wav"
+Dyew:/Hverb~/IR.6/gain.1 0.000000
+Dyew:/Hverb~/IR.7/file/path "Machintoc:/Users/install/Documents/Dyew/IRquadris/02- Churches/Cenakel Chapel/09 m-q 6.0m Cenakel Chapel/CC.3.wav"
+Dyew:/Hverb~/IR.7/gain -6.000000
+Dyew:/Hverb~/IR.8/file/path "Machintoc:/Users/install/Documents/Dyew/IRquadris/02- Churches/Cenakel Chapel/09 m-q 6.0m Cenakel Chapel/CC.4.wav"
+Dyew:/Hverb~/IR.8/gain -6.000000
+Dyew:/Hverb~/audio/bypass 0
+Dyew:/Hverb~/audio/gain 0.000000
+Dyew:/Hverb~/audio/mix 100.000000
+Dyew:/Hverb~/audio/mute 0
+# 
+Dyew:/Gverb~/audio/bypass 0
+Dyew:/Gverb~/audio/gain -12.000000
+Dyew:/Gverb~/audio/mix 100.000000
+Dyew:/Gverb~/audio/mute 0
+Dyew:/Gverb~/bandwidth 0.450000
+Dyew:/Gverb~/damping 0.400000
+Dyew:/Gverb~/early 0.281838
+Dyew:/Gverb~/revtime 10.000000
+Dyew:/Gverb~/roomsize 40.000000
+Dyew:/Gverb~/spread 50.000000
+Dyew:/Gverb~/tail 1.000000
+# 
+# 
+Dyew:/Dtrack.1/dtd/path /Users/install/Documents/Dyew/SonsDtD/
+Dyew:/Dtrack.1/dtd/loop 0
+Dyew:/Dtrack.1/dtd/pitch 1.000000
+Dyew:/Dtrack.1/dtd/play 0
+Dyew:/Dtrack.1/dtd/pause 0
+Dyew:/Dtrack.1/dtd/audio/gain 0.000000
+Dyew:/Dtrack.1/dtd/audio/mute 0
+Dyew:/Dtrack.1/dtd/balance 0.203980
+Dyew:/Dtrack.1/dtd/file/name "Orage naissant loin.wav"
+Dyew:/Dtrack.1/dtd/ramp/mode 0
+Dyew:/Dtrack.1/dtd/ramp/time 0.000000
+# 
+Dyew:/Dtrack.1/eq/bands 4
+Dyew:/Dtrack.1/eq/audio/bypass 0
+Dyew:/Dtrack.1/eq/audio/gain 10.000000
+Dyew:/Dtrack.1/eq/audio/mix 100.000000
+Dyew:/Dtrack.1/eq/audio/mute 0
+Dyew:/Dtrack.1/eq/filter.1/type lowshelf
+Dyew:/Dtrack.1/eq/filter.1/frequency 51.592949
+Dyew:/Dtrack.1/eq/filter.1/gain -0.706247
+Dyew:/Dtrack.1/eq/filter.1/bandwidth 1.000000
+Dyew:/Dtrack.1/eq/filter.2/type peaknotch
+Dyew:/Dtrack.1/eq/filter.2/frequency 170.418686
+Dyew:/Dtrack.1/eq/filter.2/gain 0.327712
+Dyew:/Dtrack.1/eq/filter.2/bandwidth 1.000000
+Dyew:/Dtrack.1/eq/filter.3/type peaknotch
+Dyew:/Dtrack.1/eq/filter.3/frequency 1616.854980
+Dyew:/Dtrack.1/eq/filter.3/gain 1.878301
+Dyew:/Dtrack.1/eq/filter.3/bandwidth 2.967945
+Dyew:/Dtrack.1/eq/filter.4/type highshelf
+Dyew:/Dtrack.1/eq/filter.4/frequency 5000.000000
+Dyew:/Dtrack.1/eq/filter.4/gain 0.000000
+Dyew:/Dtrack.1/eq/filter.4/bandwidth 1.000000
+# 
+Dyew:/Dtrack.1/dtd/path /Users/install/Documents/Dyew/SonsDtD/
+Dyew:/Dtrack.1/mod/audio/gain -6.000000
+Dyew:/Dtrack.1/mod/audio/mix 100.000000
+Dyew:/Dtrack.1/mod/audio/mute 0
+Dyew:/Dtrack.1/mod/hardness 0.112907
+Dyew:/Dtrack.1/mod/holes 0
+Dyew:/Dtrack.1/mod/mode 1
+Dyew:/Dtrack.1/mod/pause_ambitus/center 0.153500
+Dyew:/Dtrack.1/mod/pause_ambitus/deviation 0.126000
+Dyew:/Dtrack.1/mod/time_ambitus/center 0.499000
+Dyew:/Dtrack.1/mod/time_ambitus/deviation 0.128500
+Dyew:/Dtrack.1/mod/volume_ambitus/center 0.869000
+Dyew:/Dtrack.1/mod/volume_ambitus/deviation 0.130000
+# 
+Dyew:/Dtrack.1/spat/volume 0.000000
+Dyew:/Dtrack.1/spat/aux.1/gain 0.000000
+Dyew:/Dtrack.1/spat/aux.1/prepost 0
+Dyew:/Dtrack.1/spat/aux.2/gain 0.000000
+Dyew:/Dtrack.1/spat/aux.2/prepost 0
+Dyew:/Dtrack.1/spat/aux.3/gain 0.000000
+Dyew:/Dtrack.1/spat/aux.3/prepost 0
+Dyew:/Dtrack.1/spat/auxSpat/link 1
+Dyew:/Dtrack.1/spat/auxSpat/gain 0.000000
+Dyew:/Dtrack.1/spat/auxSpat/prepost 0
+Dyew:/Dtrack.1/spat/auxSpat/position/y 0.000000
+Dyew:/Dtrack.1/spat/blur 0.698113
+Dyew:/Dtrack.1/spat/color 1.000000 0.000000 0.000000 1.000000
+Dyew:/Dtrack.1/spat/destination 6
+Dyew:/Dtrack.1/spat/position/y -0.245283
+Dyew:/Dtrack.1/spat/record/active 0
+# 
+# 
+Dyew:/Dtrack.1/dtd/path /Users/install/Documents/Dyew/SonsDtD/
+Dyew:/Dtrack.2/dtd/loop 0
+Dyew:/Dtrack.2/dtd/pitch 0.000000
+Dyew:/Dtrack.2/dtd/play 0
+Dyew:/Dtrack.2/dtd/pause 0
+Dyew:/Dtrack.2/dtd/audio/gain 0.000000
+Dyew:/Dtrack.2/dtd/audio/mute 0
+Dyew:/Dtrack.2/dtd/balance 0.000000
+Dyew:/Dtrack.2/dtd/file/name none
+Dyew:/Dtrack.2/dtd/ramp/mode 0
+Dyew:/Dtrack.2/dtd/ramp/time 0.000000
+# 
+Dyew:/Dtrack.2/eq/bands 4
+Dyew:/Dtrack.2/eq/audio/bypass 0
+Dyew:/Dtrack.2/eq/audio/gain 0.000000
+Dyew:/Dtrack.2/eq/audio/mix 100.000000
+Dyew:/Dtrack.2/eq/audio/mute 0
+Dyew:/Dtrack.2/eq/filter.1/type lowshelf
+Dyew:/Dtrack.2/eq/filter.1/frequency 75.000000
+Dyew:/Dtrack.2/eq/filter.1/gain 0.000000
+Dyew:/Dtrack.2/eq/filter.1/bandwidth 1.000000
+Dyew:/Dtrack.2/eq/filter.2/type peaknotch
+Dyew:/Dtrack.2/eq/filter.2/frequency 300.000000
+Dyew:/Dtrack.2/eq/filter.2/gain 0.000000
+Dyew:/Dtrack.2/eq/filter.2/bandwidth 1.000000
+Dyew:/Dtrack.2/eq/filter.3/type peaknotch
+Dyew:/Dtrack.2/eq/filter.3/frequency 1000.000000
+Dyew:/Dtrack.2/eq/filter.3/gain 0.000000
+Dyew:/Dtrack.2/eq/filter.3/bandwidth 1.000000
+Dyew:/Dtrack.2/eq/filter.4/type highshelf
+Dyew:/Dtrack.2/eq/filter.4/frequency 5000.000000
+Dyew:/Dtrack.2/eq/filter.4/gain 0.000000
+Dyew:/Dtrack.2/eq/filter.4/bandwidth 1.000000
+# 
+Dyew:/Dtrack.2/mod/audio/bypass 0
+Dyew:/Dtrack.2/mod/audio/gain 0.000000
+Dyew:/Dtrack.2/mod/audio/mix 100.000000
+Dyew:/Dtrack.2/mod/audio/mute 0
+Dyew:/Dtrack.2/mod/hardness 0.000000
+Dyew:/Dtrack.2/mod/holes 0
+Dyew:/Dtrack.2/mod/mode 0
+Dyew:/Dtrack.2/mod/pause_ambitus/center 0.000000
+Dyew:/Dtrack.2/mod/pause_ambitus/deviation 0.000000
+Dyew:/Dtrack.2/mod/time_ambitus/center 0.000000
+Dyew:/Dtrack.2/mod/time_ambitus/deviation 0.000000
+Dyew:/Dtrack.2/mod/volume_ambitus/center 0.000000
+Dyew:/Dtrack.2/mod/volume_ambitus/deviation 0.000000
+# 
+Dyew:/Dtrack.2/spat/volume 0.000000
+Dyew:/Dtrack.2/spat/aux.1/gain 0.000000
+Dyew:/Dtrack.2/spat/aux.1/prepost 0
+Dyew:/Dtrack.2/spat/aux.2/gain 0.000000
+Dyew:/Dtrack.2/spat/aux.2/prepost 0
+Dyew:/Dtrack.2/spat/aux.3/gain 0.000000
+Dyew:/Dtrack.2/spat/aux.3/prepost 0
+Dyew:/Dtrack.2/spat/auxSpat/link 0
+Dyew:/Dtrack.2/spat/auxSpat/gain 0.000000
+Dyew:/Dtrack.2/spat/auxSpat/prepost 0
+Dyew:/Dtrack.2/spat/auxSpat/position/y 0.000000
+Dyew:/Dtrack.2/spat/blur 0.000000
+Dyew:/Dtrack.2/spat/color 1.000000 0.000000 0.000000 1.000000
+Dyew:/Dtrack.2/spat/destination 8
+Dyew:/Dtrack.2/spat/position/y 0.000000
+Dyew:/Dtrack.2/spat/record/active 0
+# 
+# 
+Dyew:/Dtrack.1/dtd/path /Users/install/Documents/Dyew/SonsDtD/
+Dyew:/Dtrack.3/dtd/loop 0
+Dyew:/Dtrack.3/dtd/pitch 0.000000
+Dyew:/Dtrack.3/dtd/play 0
+Dyew:/Dtrack.3/dtd/pause 0
+Dyew:/Dtrack.3/dtd/audio/gain 0.000000
+Dyew:/Dtrack.3/dtd/audio/mute 0
+Dyew:/Dtrack.3/dtd/balance 0.000000
+Dyew:/Dtrack.3/dtd/file/name none
+Dyew:/Dtrack.3/dtd/ramp/mode 0
+Dyew:/Dtrack.3/dtd/ramp/time 0.000000
+# 
+Dyew:/Dtrack.3/eq/bands 4
+Dyew:/Dtrack.3/eq/audio/bypass 0
+Dyew:/Dtrack.3/eq/audio/gain 100.000000
+Dyew:/Dtrack.3/eq/audio/mix 100.000000
+Dyew:/Dtrack.3/eq/audio/mute 0
+Dyew:/Dtrack.3/eq/filter.1/type lowshelf
+Dyew:/Dtrack.3/eq/filter.1/frequency 75.000000
+Dyew:/Dtrack.3/eq/filter.1/gain 0.000000
+Dyew:/Dtrack.3/eq/filter.1/bandwidth 1.000000
+Dyew:/Dtrack.3/eq/filter.2/type peaknotch
+Dyew:/Dtrack.3/eq/filter.2/frequency 300.000000
+Dyew:/Dtrack.3/eq/filter.2/gain 0.000000
+Dyew:/Dtrack.3/eq/filter.2/bandwidth 1.000000
+Dyew:/Dtrack.3/eq/filter.3/type peaknotch
+Dyew:/Dtrack.3/eq/filter.3/frequency 1000.000000
+Dyew:/Dtrack.3/eq/filter.3/gain 0.000000
+Dyew:/Dtrack.3/eq/filter.3/bandwidth 1.000000
+Dyew:/Dtrack.3/eq/filter.4/type highshelf
+Dyew:/Dtrack.3/eq/filter.4/frequency 5000.000000
+Dyew:/Dtrack.3/eq/filter.4/gain 0.000000
+Dyew:/Dtrack.3/eq/filter.4/bandwidth 1.000000
+# 
+Dyew:/Dtrack.3/mod/audio/bypass 0
+Dyew:/Dtrack.3/mod/audio/gain 0.000000
+Dyew:/Dtrack.3/mod/audio/mix 100.000000
+Dyew:/Dtrack.3/mod/audio/mute 0
+Dyew:/Dtrack.3/mod/hardness 0.000000
+Dyew:/Dtrack.3/mod/holes 0
+Dyew:/Dtrack.3/mod/mode 0
+Dyew:/Dtrack.3/mod/pause_ambitus/center 0.000000
+Dyew:/Dtrack.3/mod/pause_ambitus/deviation 0.000000
+Dyew:/Dtrack.3/mod/time_ambitus/center 0.000000
+Dyew:/Dtrack.3/mod/time_ambitus/deviation 0.000000
+Dyew:/Dtrack.3/mod/volume_ambitus/center 0.000000
+Dyew:/Dtrack.3/mod/volume_ambitus/deviation 0.000000
+# 
+Dyew:/Dtrack.3/spat/volume 0.000000
+Dyew:/Dtrack.3/spat/aux.1/gain 0.000000
+Dyew:/Dtrack.3/spat/aux.1/prepost 0
+Dyew:/Dtrack.3/spat/aux.2/gain 0.000000
+Dyew:/Dtrack.3/spat/aux.2/prepost 0
+Dyew:/Dtrack.3/spat/aux.3/gain 0.000000
+Dyew:/Dtrack.3/spat/aux.3/prepost 0
+Dyew:/Dtrack.3/spat/auxSpat/link 0
+Dyew:/Dtrack.3/spat/auxSpat/gain 0.000000
+Dyew:/Dtrack.3/spat/auxSpat/prepost 0
+Dyew:/Dtrack.3/spat/auxSpat/position/y 0.000000
+Dyew:/Dtrack.3/spat/blur 0.000000
+Dyew:/Dtrack.3/spat/color 1.000000 0.000000 0.000000 1.000000
+Dyew:/Dtrack.3/spat/destination 10
+Dyew:/Dtrack.3/spat/position/y 0.000000
+Dyew:/Dtrack.3/spat/record/active 0
+# 
+# 
+Dyew:/track.1/gran/sound/bufferpool pool
+Dyew:/track.1/gran/sound/folder orages_courts
+Dyew:/track.1/gran/sound/buffer 3084.wav
+Dyew:/track.1/gran/sound/enveloppe trapez20.aif
+Dyew:/track.1/gran/pitch/jit 0.000000
+Dyew:/track.1/gran/pitch/val 1.000000
+Dyew:/track.1/gran/position/val 0.000000
+Dyew:/track.1/gran/position/jit 0.134021
+Dyew:/track.1/gran/length/val 9999.208333
+Dyew:/track.1/gran/length/jit 0.270000
+Dyew:/track.1/gran/delay/jit 0.197917
+Dyew:/track.1/gran/delay/val 0.000000
+Dyew:/track.1/gran/amp/jit 0.000000
+Dyew:/track.1/gran/amp/val 0.500000
+Dyew:/track.1/gran/audio/gain 1.000000
+Dyew:/track.1/gran/audio/mute 0
+Dyew:/track.1/gran/continuous 0
+Dyew:/track.1/gran/density/jit 0.000000
+Dyew:/track.1/gran/density/val 4.000000
+Dyew:/track.1/gran/record/active 0
+Dyew:/track.1/gran/record/input 0.000000
+Dyew:/track.1/gran/voices 64
+# 
+Dyew:/track.1/mod/audio/bypass 0
+Dyew:/track.1/mod/audio/gain -12.275094
+Dyew:/track.1/mod/audio/mix 100.000000
+Dyew:/track.1/mod/audio/mute 0
+Dyew:/track.1/mod/hardness 0.000000
+Dyew:/track.1/mod/holes 0
+Dyew:/track.1/mod/mode 0
+Dyew:/track.1/mod/pause_ambitus/center 0.000000
+Dyew:/track.1/mod/pause_ambitus/deviation 0.000000
+Dyew:/track.1/mod/time_ambitus/center 0.000000
+Dyew:/track.1/mod/time_ambitus/deviation 0.000000
+Dyew:/track.1/mod/volume_ambitus/center 0.796000
+Dyew:/track.1/mod/volume_ambitus/deviation 0.202000
+# 
+Dyew:/track.1/eq/bands 5
+Dyew:/track.1/eq/audio/bypass 0
+Dyew:/track.1/eq/audio/gain 0.000000
+Dyew:/track.1/eq/audio/mix 100.000000
+Dyew:/track.1/eq/audio/mute 0
+Dyew:/track.1/eq/filter.1/type lowshelf
+Dyew:/track.1/eq/filter.1/frequency 88.619301
+Dyew:/track.1/eq/filter.1/gain -6.915560
+Dyew:/track.1/eq/filter.1/bandwidth 1.000000
+Dyew:/track.1/eq/filter.2/type peaknotch
+Dyew:/track.1/eq/filter.2/frequency 250.000000
+Dyew:/track.1/eq/filter.2/gain 0.000000
+Dyew:/track.1/eq/filter.2/bandwidth 1.889071
+Dyew:/track.1/eq/filter.3/type peaknotch
+Dyew:/track.1/eq/filter.3/frequency 700.000000
+Dyew:/track.1/eq/filter.3/gain 3.000000
+Dyew:/track.1/eq/filter.3/bandwidth 1.000000
+Dyew:/track.1/eq/filter.4/type peaknotch
+Dyew:/track.1/eq/filter.4/frequency 1341.331292
+Dyew:/track.1/eq/filter.4/gain 9.110506
+Dyew:/track.1/eq/filter.4/bandwidth 2.305899
+Dyew:/track.1/eq/filter.5/type highshelf
+Dyew:/track.1/eq/filter.5/frequency 4621.223494
+Dyew:/track.1/eq/filter.5/gain -7.433580
+Dyew:/track.1/eq/filter.5/bandwidth 1.000000
+# 
+Dyew:/track.1/spat/volume 0.659794
+Dyew:/track.1/spat/area/xy -0.034091 -0.772727
+Dyew:/track.1/spat/area/size/xy 0.818182 0.193182
+Dyew:/track.1/spat/aux.1/gain 0.000000
+Dyew:/track.1/spat/aux.1/prepost 0
+Dyew:/track.1/spat/aux.2/gain 0.000000
+Dyew:/track.1/spat/aux.2/prepost 0
+Dyew:/track.1/spat/aux.3/gain 0.000000
+Dyew:/track.1/spat/aux.3/prepost 0
+Dyew:/track.1/spat/auxSpat/link 0
+Dyew:/track.1/spat/auxSpat/gain 0.000000
+Dyew:/track.1/spat/auxSpat/prepost 0
+Dyew:/track.1/spat/auxSpat/position/x 0.397727
+Dyew:/track.1/spat/auxSpat/position/y 0.136364
+Dyew:/track.1/spat/blur 0.431818
+Dyew:/track.1/spat/color 1.000000 0.000000 0.000000 1.000000
+Dyew:/track.1/spat/destination 1
+Dyew:/track.1/spat/position/x -0.034091
+Dyew:/track.1/spat/position/y -0.772727
+Dyew:/track.1/spat/record/active 0
+Dyew:/track.1/spat/trajectory/traj --- static ---
+Dyew:/track.1/spat/trajectory/file DBAPspat.xml
+Dyew:/track.1/spat/trajectory/grain 20.000000
+Dyew:/track.1/spat/trajectory/direction 0
+Dyew:/track.1/spat/trajectory/speed/val 1.714286
+Dyew:/track.1/spat/trajectory/speed/variation 0.192308
+# 
+# 
+Dyew:/track.2/gran/sound/bufferpool pool
+Dyew:/track.2/gran/sound/folder clims
+Dyew:/track.2/gran/sound/buffer ClimChantante.wav
+Dyew:/track.2/gran/sound/enveloppe trapez20.aif
+Dyew:/track.2/gran/pitch/jit 0.000000
+Dyew:/track.2/gran/pitch/val 1.000000
+Dyew:/track.2/gran/position/val 11261.250000
+Dyew:/track.2/gran/position/jit 0.120275
+Dyew:/track.2/gran/length/val 18847.791667
+Dyew:/track.2/gran/length/jit 0.410000
+Dyew:/track.2/gran/delay/jit 0.145833
+Dyew:/track.2/gran/delay/val 0.000000
+Dyew:/track.2/gran/amp/jit 0.000000
+Dyew:/track.2/gran/amp/val 0.500000
+Dyew:/track.2/gran/audio/gain 5.000000
+Dyew:/track.2/gran/audio/mute 0
+Dyew:/track.2/gran/continuous 1
+Dyew:/track.2/gran/density/jit 2.000000
+Dyew:/track.2/gran/density/val 4.000000
+Dyew:/track.2/gran/record/active 0
+Dyew:/track.2/gran/record/input 0.000000
+Dyew:/track.2/gran/voices 64
+# 
+Dyew:/track.2/mod/audio/bypass 1
+Dyew:/track.2/mod/audio/gain 1.000000
+Dyew:/track.2/mod/audio/mix 0.000000
+Dyew:/track.2/mod/audio/mute 0
+Dyew:/track.2/mod/hardness 0.000000
+Dyew:/track.2/mod/holes 0
+Dyew:/track.2/mod/mode 0
+Dyew:/track.2/mod/pause_ambitus/center 0.000000
+Dyew:/track.2/mod/pause_ambitus/deviation 0.000000
+Dyew:/track.2/mod/time_ambitus/center 0.935000
+Dyew:/track.2/mod/time_ambitus/deviation 0.064500
+Dyew:/track.2/mod/volume_ambitus/center 0.863000
+Dyew:/track.2/mod/volume_ambitus/deviation 0.124000
+# 
+Dyew:/track.2/eq/bands 5
+Dyew:/track.2/eq/audio/bypass 0
+Dyew:/track.2/eq/audio/gain 2.000000
+Dyew:/track.2/eq/audio/mix 100.000000
+Dyew:/track.2/eq/audio/mute 0
+Dyew:/track.2/eq/filter.1/type lowshelf
+Dyew:/track.2/eq/filter.1/frequency 272.986022
+Dyew:/track.2/eq/filter.1/gain -18.877171
+Dyew:/track.2/eq/filter.1/bandwidth 1.000000
+Dyew:/track.2/eq/filter.2/type peaknotch
+Dyew:/track.2/eq/filter.2/frequency 250.000000
+Dyew:/track.2/eq/filter.2/gain 0.000000
+Dyew:/track.2/eq/filter.2/bandwidth 1.000000
+Dyew:/track.2/eq/filter.3/type peaknotch
+Dyew:/track.2/eq/filter.3/frequency 922.966637
+Dyew:/track.2/eq/filter.3/gain 6.528148
+Dyew:/track.2/eq/filter.3/bandwidth 1.000000
+Dyew:/track.2/eq/filter.4/type peaknotch
+Dyew:/track.2/eq/filter.4/frequency 1472.673265
+Dyew:/track.2/eq/filter.4/gain 12.208775
+Dyew:/track.2/eq/filter.4/bandwidth 1.644271
+Dyew:/track.2/eq/filter.5/type highshelf
+Dyew:/track.2/eq/filter.5/frequency 5073.202514
+Dyew:/track.2/eq/filter.5/gain -7.433580
+Dyew:/track.2/eq/filter.5/bandwidth 1.000000
+# 
+Dyew:/track.2/spat/volume 0.000000
+Dyew:/track.2/spat/area/xy 0.000000
+Dyew:/track.2/spat/area/size/xy 0.200000 0.200000
+Dyew:/track.2/spat/aux.1/gain 0.000000
+Dyew:/track.2/spat/aux.1/prepost 0
+Dyew:/track.2/spat/aux.2/gain 0.000000
+Dyew:/track.2/spat/aux.2/prepost 0
+Dyew:/track.2/spat/aux.3/gain 0.000000
+Dyew:/track.2/spat/aux.3/prepost 0
+Dyew:/track.2/spat/auxSpat/link 0
+Dyew:/track.2/spat/auxSpat/gain 0.000000
+Dyew:/track.2/spat/auxSpat/prepost 0
+Dyew:/track.2/spat/auxSpat/position/x 0.000000
+Dyew:/track.2/spat/auxSpat/position/y 0.000000
+Dyew:/track.2/spat/blur 0.000000
+Dyew:/track.2/spat/color 1.000000 0.000000 0.000000 1.000000
+Dyew:/track.2/spat/destination 2
+Dyew:/track.2/spat/position/x 0.000000
+Dyew:/track.2/spat/position/y 0.000000
+Dyew:/track.2/spat/record/active 0
+Dyew:/track.2/spat/trajectory/traj --- static ---
+Dyew:/track.2/spat/trajectory/file DBAPspat.xml
+Dyew:/track.2/spat/trajectory/grain 20.000000
+Dyew:/track.2/spat/trajectory/direction 0
+Dyew:/track.2/spat/trajectory/speed/val 1.000000
+Dyew:/track.2/spat/trajectory/speed/variation 0.000000
+# 
+# 
+Dyew:/track.3/gran/sound/bufferpool pool
+Dyew:/track.3/gran/sound/folder tuyaux
+Dyew:/track.3/gran/sound/buffer ClimChantante.wav
+Dyew:/track.3/gran/sound/enveloppe hanning.aif
+Dyew:/track.3/gran/pitch/jit 0.000000
+Dyew:/track.3/gran/pitch/val 1.000000
+Dyew:/track.3/gran/position/val 0.000000
+Dyew:/track.3/gran/position/jit 0.000000
+Dyew:/track.3/gran/length/val 5.000000
+Dyew:/track.3/gran/length/jit 0.000000
+Dyew:/track.3/gran/delay/jit 0.000000
+Dyew:/track.3/gran/delay/val 0.000000
+Dyew:/track.3/gran/amp/jit 0.000000
+Dyew:/track.3/gran/amp/val 0.500000
+Dyew:/track.3/gran/audio/gain 0.000000
+Dyew:/track.3/gran/audio/mute 0
+Dyew:/track.3/gran/continuous 0
+Dyew:/track.3/gran/density/jit 0.000000
+Dyew:/track.3/gran/density/val 1.000000
+Dyew:/track.3/gran/record/active 0
+Dyew:/track.3/gran/record/input 0.000000
+Dyew:/track.3/gran/voices 64
+# 
+Dyew:/track.3/mod/audio/bypass 0
+Dyew:/track.3/mod/audio/gain 0.000000
+Dyew:/track.3/mod/audio/mix 100.000000
+Dyew:/track.3/mod/audio/mute 0
+Dyew:/track.3/mod/hardness 0.000000
+Dyew:/track.3/mod/holes 0
+Dyew:/track.3/mod/mode 0
+Dyew:/track.3/mod/pause_ambitus/center 0.000000
+Dyew:/track.3/mod/pause_ambitus/deviation 0.000000
+Dyew:/track.3/mod/time_ambitus/center 0.000000
+Dyew:/track.3/mod/time_ambitus/deviation 0.000000
+Dyew:/track.3/mod/volume_ambitus/center 0.000000
+Dyew:/track.3/mod/volume_ambitus/deviation 0.000000
+# 
+Dyew:/track.3/eq/bands 5
+Dyew:/track.3/eq/audio/bypass 0
+Dyew:/track.3/eq/audio/gain 0.000000
+Dyew:/track.3/eq/audio/mix 100.000000
+Dyew:/track.3/eq/audio/mute 0
+Dyew:/track.3/eq/filter.1/type lowshelf
+Dyew:/track.3/eq/filter.1/frequency 75.000000
+Dyew:/track.3/eq/filter.1/gain 12.000000
+Dyew:/track.3/eq/filter.1/bandwidth 1.000000
+Dyew:/track.3/eq/filter.2/type peaknotch
+Dyew:/track.3/eq/filter.2/frequency 250.000000
+Dyew:/track.3/eq/filter.2/gain 0.000000
+Dyew:/track.3/eq/filter.2/bandwidth 1.000000
+Dyew:/track.3/eq/filter.3/type peaknotch
+Dyew:/track.3/eq/filter.3/frequency 700.000000
+Dyew:/track.3/eq/filter.3/gain 3.000000
+Dyew:/track.3/eq/filter.3/bandwidth 1.000000
+Dyew:/track.3/eq/filter.4/type peaknotch
+Dyew:/track.3/eq/filter.4/frequency 2000.000000
+Dyew:/track.3/eq/filter.4/gain -3.000000
+Dyew:/track.3/eq/filter.4/bandwidth 1.000000
+Dyew:/track.3/eq/filter.5/type highshelf
+Dyew:/track.3/eq/filter.5/frequency 6000.000000
+Dyew:/track.3/eq/filter.5/gain 6.000000
+Dyew:/track.3/eq/filter.5/bandwidth 1.000000
+# 
+Dyew:/track.3/spat/volume 0.000000
+Dyew:/track.3/spat/area/xy 0.000000
+Dyew:/track.3/spat/area/size/xy 0.200000 0.200000
+Dyew:/track.3/spat/aux.1/gain 0.000000
+Dyew:/track.3/spat/aux.1/prepost 0
+Dyew:/track.3/spat/aux.2/gain 0.000000
+Dyew:/track.3/spat/aux.2/prepost 0
+Dyew:/track.3/spat/aux.3/gain 0.000000
+Dyew:/track.3/spat/aux.3/prepost 0
+Dyew:/track.3/spat/auxSpat/link 0
+Dyew:/track.3/spat/auxSpat/gain 0.000000
+Dyew:/track.3/spat/auxSpat/prepost 0
+Dyew:/track.3/spat/auxSpat/position/x 0.000000
+Dyew:/track.3/spat/auxSpat/position/y 0.000000
+Dyew:/track.3/spat/blur 0.000000
+Dyew:/track.3/spat/color 1.000000 0.000000 0.000000 1.000000
+Dyew:/track.3/spat/destination 3
+Dyew:/track.3/spat/position/x 0.000000
+Dyew:/track.3/spat/position/y 0.000000
+Dyew:/track.3/spat/record/active 0
+Dyew:/track.3/spat/trajectory/traj --- static ---
+Dyew:/track.3/spat/trajectory/file DBAPspat.xml
+Dyew:/track.3/spat/trajectory/grain 20.000000
+Dyew:/track.3/spat/trajectory/direction 0
+Dyew:/track.3/spat/trajectory/speed/val 1.000000
+Dyew:/track.3/spat/trajectory/speed/variation 0.000000
+# 
+# 
+Dyew:/track.4/gran/sound/bufferpool pool
+Dyew:/track.4/gran/sound/folder tuyaux
+Dyew:/track.4/gran/sound/buffer ClimChantante.wav
+Dyew:/track.4/gran/sound/enveloppe hanning.aif
+Dyew:/track.4/gran/pitch/jit 0.000000
+Dyew:/track.4/gran/pitch/val 1.000000
+Dyew:/track.4/gran/position/val 0.000000
+Dyew:/track.4/gran/position/jit 0.000000
+Dyew:/track.4/gran/length/val 5.000000
+Dyew:/track.4/gran/length/jit 0.000000
+Dyew:/track.4/gran/delay/jit 0.000000
+Dyew:/track.4/gran/delay/val 0.000000
+Dyew:/track.4/gran/amp/jit 0.000000
+Dyew:/track.4/gran/amp/val 0.500000
+Dyew:/track.4/gran/audio/gain 0.000000
+Dyew:/track.4/gran/audio/mute 0
+Dyew:/track.4/gran/continuous 0
+Dyew:/track.4/gran/density/jit 0.000000
+Dyew:/track.4/gran/density/val 1.000000
+Dyew:/track.4/gran/record/active 0
+Dyew:/track.4/gran/record/input 0.000000
+Dyew:/track.4/gran/voices 64
+# 
+Dyew:/track.4/mod/audio/bypass 0
+Dyew:/track.4/mod/audio/gain 0.000000
+Dyew:/track.4/mod/audio/mix 100.000000
+Dyew:/track.4/mod/audio/mute 0
+Dyew:/track.4/mod/hardness 0.500000
+Dyew:/track.4/mod/holes 0
+Dyew:/track.4/mod/mode 0
+Dyew:/track.4/mod/pause_ambitus/center 0.500000
+Dyew:/track.4/mod/pause_ambitus/deviation 1.000000
+Dyew:/track.4/mod/time_ambitus/center 0.500000
+Dyew:/track.4/mod/time_ambitus/deviation 1.000000
+Dyew:/track.4/mod/volume_ambitus/center 0.000000
+Dyew:/track.4/mod/volume_ambitus/deviation 1.000000
+# 
+Dyew:/track.4/eq/bands 5
+Dyew:/track.4/eq/audio/bypass 0
+Dyew:/track.4/eq/audio/gain 0.000000
+Dyew:/track.4/eq/audio/mix 100.000000
+Dyew:/track.4/eq/audio/mute 0
+Dyew:/track.4/eq/filter.1/type lowshelf
+Dyew:/track.4/eq/filter.1/frequency 75.000000
+Dyew:/track.4/eq/filter.1/gain 12.000000
+Dyew:/track.4/eq/filter.1/bandwidth 1.000000
+Dyew:/track.4/eq/filter.2/type peaknotch
+Dyew:/track.4/eq/filter.2/frequency 250.000000
+Dyew:/track.4/eq/filter.2/gain 0.000000
+Dyew:/track.4/eq/filter.2/bandwidth 1.000000
+Dyew:/track.4/eq/filter.3/type peaknotch
+Dyew:/track.4/eq/filter.3/frequency 700.000000
+Dyew:/track.4/eq/filter.3/gain 3.000000
+Dyew:/track.4/eq/filter.3/bandwidth 1.000000
+Dyew:/track.4/eq/filter.4/type peaknotch
+Dyew:/track.4/eq/filter.4/frequency 2000.000000
+Dyew:/track.4/eq/filter.4/gain -3.000000
+Dyew:/track.4/eq/filter.4/bandwidth 1.000000
+Dyew:/track.4/eq/filter.5/type highshelf
+Dyew:/track.4/eq/filter.5/frequency 6000.000000
+Dyew:/track.4/eq/filter.5/gain 6.000000
+Dyew:/track.4/eq/filter.5/bandwidth 1.000000
+# 
+Dyew:/track.4/spat/volume 0.000000
+Dyew:/track.4/spat/area/xy 0.000000
+Dyew:/track.4/spat/area/size/xy 0.200000 0.200000
+Dyew:/track.4/spat/aux.1/gain 0.000000
+Dyew:/track.4/spat/aux.1/prepost 0
+Dyew:/track.4/spat/aux.2/gain 0.000000
+Dyew:/track.4/spat/aux.2/prepost 0
+Dyew:/track.4/spat/aux.3/gain 0.000000
+Dyew:/track.4/spat/aux.3/prepost 0
+Dyew:/track.4/spat/auxSpat/link 0
+Dyew:/track.4/spat/auxSpat/gain 0.000000
+Dyew:/track.4/spat/auxSpat/prepost 0
+Dyew:/track.4/spat/auxSpat/position/x 0.000000
+Dyew:/track.4/spat/auxSpat/position/y 0.000000
+Dyew:/track.4/spat/blur 0.000000
+Dyew:/track.4/spat/color 1.000000 0.000000 0.000000 1.000000
+Dyew:/track.4/spat/destination 4
+Dyew:/track.4/spat/position/x 0.000000
+Dyew:/track.4/spat/position/y 0.000000
+Dyew:/track.4/spat/record/active 0
+Dyew:/track.4/spat/trajectory/traj --- static ---
+Dyew:/track.4/spat/trajectory/file DBAPspat.xml
+Dyew:/track.4/spat/trajectory/grain 20.000000
+Dyew:/track.4/spat/trajectory/direction 0
+Dyew:/track.4/spat/trajectory/speed/val 1.000000
+Dyew:/track.4/spat/trajectory/speed/variation 0.000000
+# 
+# 
+Dyew:/track.5/gran/sound/bufferpool pool
+Dyew:/track.5/gran/sound/folder tuyaux
+Dyew:/track.5/gran/sound/buffer ClimChantante.wav
+Dyew:/track.5/gran/sound/enveloppe hanning.aif
+Dyew:/track.5/gran/pitch/jit 0.000000
+Dyew:/track.5/gran/pitch/val 1.000000
+Dyew:/track.5/gran/position/val 0.000000
+Dyew:/track.5/gran/position/jit 0.000000
+Dyew:/track.5/gran/length/val 5.000000
+Dyew:/track.5/gran/length/jit 0.000000
+Dyew:/track.5/gran/delay/jit 0.000000
+Dyew:/track.5/gran/delay/val 0.000000
+Dyew:/track.5/gran/amp/jit 0.000000
+Dyew:/track.5/gran/amp/val 0.500000
+Dyew:/track.5/gran/audio/gain 0.000000
+Dyew:/track.5/gran/audio/mute 0
+Dyew:/track.5/gran/continuous 0
+Dyew:/track.5/gran/density/jit 0.000000
+Dyew:/track.5/gran/density/val 1.000000
+Dyew:/track.5/gran/record/active 0
+Dyew:/track.5/gran/record/input 0.000000
+Dyew:/track.5/gran/voices 64
+# 
+Dyew:/track.5/mod/audio/bypass 0
+Dyew:/track.5/mod/audio/gain 0.000000
+Dyew:/track.5/mod/audio/mix 100.000000
+Dyew:/track.5/mod/audio/mute 0
+Dyew:/track.5/mod/hardness 0.000000
+Dyew:/track.5/mod/holes 0
+Dyew:/track.5/mod/mode 0
+Dyew:/track.5/mod/pause_ambitus/center 0.000000
+Dyew:/track.5/mod/pause_ambitus/deviation 0.000000
+Dyew:/track.5/mod/time_ambitus/center 0.000000
+Dyew:/track.5/mod/time_ambitus/deviation 0.000000
+Dyew:/track.5/mod/volume_ambitus/center 0.000000
+Dyew:/track.5/mod/volume_ambitus/deviation 0.000000
+# 
+Dyew:/track.5/eq/bands 5
+Dyew:/track.5/eq/audio/bypass 0
+Dyew:/track.5/eq/audio/gain 0.000000
+Dyew:/track.5/eq/audio/mix 100.000000
+Dyew:/track.5/eq/audio/mute 0
+Dyew:/track.5/eq/filter.1/type lowshelf
+Dyew:/track.5/eq/filter.1/frequency 75.000000
+Dyew:/track.5/eq/filter.1/gain 12.000000
+Dyew:/track.5/eq/filter.1/bandwidth 1.000000
+Dyew:/track.5/eq/filter.2/type peaknotch
+Dyew:/track.5/eq/filter.2/frequency 250.000000
+Dyew:/track.5/eq/filter.2/gain 0.000000
+Dyew:/track.5/eq/filter.2/bandwidth 1.000000
+Dyew:/track.5/eq/filter.3/type peaknotch
+Dyew:/track.5/eq/filter.3/frequency 700.000000
+Dyew:/track.5/eq/filter.3/gain 3.000000
+Dyew:/track.5/eq/filter.3/bandwidth 1.000000
+Dyew:/track.5/eq/filter.4/type peaknotch
+Dyew:/track.5/eq/filter.4/frequency 2000.000000
+Dyew:/track.5/eq/filter.4/gain -3.000000
+Dyew:/track.5/eq/filter.4/bandwidth 1.000000
+Dyew:/track.5/eq/filter.5/type highshelf
+Dyew:/track.5/eq/filter.5/frequency 6000.000000
+Dyew:/track.5/eq/filter.5/gain 6.000000
+Dyew:/track.5/eq/filter.5/bandwidth 1.000000
+# 
+Dyew:/track.5/spat/volume 0.000000
+Dyew:/track.5/spat/area/xy 0.000000
+Dyew:/track.5/spat/area/size/xy 0.200000 0.200000
+Dyew:/track.5/spat/aux.1/gain 0.000000
+Dyew:/track.5/spat/aux.1/prepost 0
+Dyew:/track.5/spat/aux.2/gain 0.000000
+Dyew:/track.5/spat/aux.2/prepost 0
+Dyew:/track.5/spat/aux.3/gain 0.000000
+Dyew:/track.5/spat/aux.3/prepost 0
+Dyew:/track.5/spat/auxSpat/link 0
+Dyew:/track.5/spat/auxSpat/gain 0.000000
+Dyew:/track.5/spat/auxSpat/prepost 0
+Dyew:/track.5/spat/auxSpat/position/x 0.000000
+Dyew:/track.5/spat/auxSpat/position/y 0.000000
+Dyew:/track.5/spat/blur 0.000000
+Dyew:/track.5/spat/color 1.000000 0.000000 0.000000 1.000000
+Dyew:/track.5/spat/destination 5
+Dyew:/track.5/spat/position/x 0.000000
+Dyew:/track.5/spat/position/y 0.000000
+Dyew:/track.5/spat/record/active 0
+Dyew:/track.5/spat/trajectory/traj --- static ---
+Dyew:/track.5/spat/trajectory/file DBAPspat.xml
+Dyew:/track.5/spat/trajectory/grain 20.000000
+Dyew:/track.5/spat/trajectory/direction 0
+Dyew:/track.5/spat/trajectory/speed/val 1.000000
+Dyew:/track.5/spat/trajectory/speed/variation 0.000000
+# 
+# 
+# 
+# ###########################################
+
