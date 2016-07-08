@@ -1,0 +1,6 @@
+[submodule "Arduino/lib/DMXSerial"]
+	path = Arduino/lib/DMXSerial
+	url = https://github.com/mathertel/DMXSerial.git
+[submodule "Arduino/lib/OSCuino"]
+	path = Arduino/lib/OSCuino
+	url = https://github.com/CNMAT/OSCuino
