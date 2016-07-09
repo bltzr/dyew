@@ -1,0 +1,33 @@
+#N canvas 539 258 571 493 10;
+#X obj 43 23 inlet;
+#X obj 43 49 t a a;
+#X obj 70 73 route gem_state;
+#X obj 70 97 route 0 1;
+#X obj 43 279 s \$0-to_dynamic_framebuffer;
+#X obj 95 127 \$0;
+#X msg 70 224 clear;
+#X obj 212 112 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 95 147 obj 50 50 r \$1-to_dynamic_framebuffer \, obj 50 100
+gemframebuffer \, obj 50 150 s \$1-from_dynamic_framebuffer \, obj
+250 150 s \$1-from_dynamic_framebuffer2 \, connect 0 0 1 0 \, connect
+1 0 2 0 \, connect 1 1 3 0;
+#X obj 44 408 outlet;
+#X obj 244 408 outlet;
+#N canvas 634 263 450 300 dynamic-\$0 0;
+#X restore 43 303 pd dynamic-\$0;
+#X obj 95 250 s pd-dynamic-\$0;
+#X obj 44 380 r \$0-from_dynamic_framebuffer;
+#X obj 244 382 r \$1-from_dynamic_framebuffer2;
+#X connect 0 0 1 0;
+#X connect 1 0 4 0;
+#X connect 1 1 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 6 0;
+#X connect 3 1 5 0;
+#X connect 5 0 8 0;
+#X connect 6 0 12 0;
+#X connect 7 0 5 0;
+#X connect 8 0 12 0;
+#X connect 13 0 9 0;
+#X connect 14 0 10 0;

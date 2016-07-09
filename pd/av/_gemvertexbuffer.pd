@@ -1,0 +1,22 @@
+#N canvas 780 221 547 376 10;
+#X obj 43 23 inlet;
+#X obj 43 49 t a a;
+#X obj 70 73 route gem_state;
+#X obj 70 97 route 0 1;
+#X obj 95 127 \$0;
+#X msg 70 184 clear;
+#X msg 95 147 obj 50 50 r \$1-to_dynamic_vertexbuffer \, obj 50 100
+gemvertexbuffer \, connect 0 0 1 0;
+#X obj 43 239 s \$0-to_dynamic_vertexbuffer;
+#X obj 95 210 s pd-dynamic-\$0;
+#N canvas 642 243 450 300 dynamic-\$0 0;
+#X restore 43 263 pd dynamic-\$0;
+#X connect 0 0 1 0;
+#X connect 1 0 7 0;
+#X connect 1 1 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 3 1 4 0;
+#X connect 4 0 6 0;
+#X connect 5 0 8 0;
+#X connect 6 0 8 0;

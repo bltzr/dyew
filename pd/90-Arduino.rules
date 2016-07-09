@@ -1,0 +1,2 @@
+#All Arduino
+SUBSYSTEM=="usb", ATTR{idVendor}=="2341", ATTR{idProduct}=="0037", MODE:="0666", OWNER:="root", GROUP:="dialout", SYMLINK+="arduino"
