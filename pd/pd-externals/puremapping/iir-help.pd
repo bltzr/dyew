@@ -1,0 +1,55 @@
+#N canvas 694 170 683 513 10;
+#X floatatom 266 204 5 0 0 0 - - -, f 5;
+#X text 22 11 data;
+#X obj 27 172 t f f;
+#X msg 67 100 0;
+#X msg 68 121 1;
+#X obj 440 294 timeroll;
+#X obj 234 294 timeroll;
+#X obj 234 234 iir 5;
+#X obj 27 294 timeroll;
+#X obj 27 30 vsl 15 128 0 1 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 7146 1;
+#X text 504 276 high-pass;
+#X text 240 276 low-pass;
+#X text 83 441 original;
+#X text 67 467 For more info on IIR:;
+#X obj 116 483 pddp/pddplink http://www.dspguru.com/info/faqs/iirfaq.htm
+;
+#X text 89 27 [iir] computes a infinite impulse response low-pass filter.
+;
+#X msg 234 124 reset;
+#X text 293 126 reset internal state;
+#X text 313 145 reset internal state to a specific value;
+#X msg 242 147 reset 0.3;
+#X text 322 203 ilter coef;
+#X obj 124 77 metro 10;
+#X obj 124 53 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X floatatom 154 112 5 0 0 0 - - -, f 5;
+#X obj 124 130 f;
+#X obj 124 152 t a b;
+#X obj 151 173 random 1000;
+#X obj 151 195 / 1000;
+#X obj 124 240 +;
+#X obj 151 217 * 0.1;
+#X connect 0 0 7 1;
+#X connect 2 0 8 0;
+#X connect 2 1 7 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;
+#X connect 7 0 6 0;
+#X connect 7 1 5 0;
+#X connect 9 0 2 0;
+#X connect 16 0 7 0;
+#X connect 19 0 7 0;
+#X connect 21 0 24 0;
+#X connect 22 0 21 0;
+#X connect 23 0 24 1;
+#X connect 24 0 25 0;
+#X connect 25 0 28 0;
+#X connect 25 1 26 0;
+#X connect 26 0 27 0;
+#X connect 27 0 29 0;
+#X connect 28 0 9 0;
+#X connect 29 0 28 1;
