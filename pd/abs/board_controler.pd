@@ -1,24 +1,24 @@
-#N canvas 1027 185 682 526 10;
+#N canvas 1108 554 682 526 10;
 #X declare -path ../bin -path ../puremapping -path ../av;
 #X obj 195 103 tgl 15 0 empty \$0-cs_on-in empty 17 7 0 10 -262144
--1 -1 0 1;
+-1 -1 1 1;
 #X obj 123 104 tgl 15 0 empty \$0-fsr_on-in empty 17 7 0 10 -262144
--1 -1 0 1;
+-1 -1 1 1;
 #X msg 123 124 /fsr/on \$1;
 #X msg 195 124 /cs/on \$1;
-#X floatatom 260 87 5 1 100 0 - #0-cs_sensibility-in -, f 5;
+#X floatatom 260 86 5 1 1000 0 - #0-cs_sensibility-in -, f 5;
 #X msg 260 124 /cs/sensibility \$1;
 #X msg 501 199 /s/del \$1;
 #X floatatom 501 162 5 0 0 0 - #0-del-in -, f 5;
 #X obj 501 179 speedlimit 200;
 #X obj 260 104 speedlimit 200;
-#X floatatom 378 87 8 0 0 0 - - -, f 8;
-#X obj 378 104 speedlimit 200;
-#X msg 378 124 /cs/autocal \$1;
+#X floatatom 398 87 8 0 0 0 - - -, f 8;
+#X obj 398 104 speedlimit 200;
+#X msg 398 124 /cs/autocal \$1;
 #X msg 122 148 /s;
-#X floatatom 475 86 5 0 0 0 - #0-cs_timeout-in -, f 5;
-#X obj 475 103 speedlimit 200;
-#X msg 475 123 /cs/timeout \$1;
+#X floatatom 515 86 5 0 0 0 - #0-cs_timeout-in -, f 5;
+#X obj 515 103 speedlimit 200;
+#X msg 515 123 /cs/timeout \$1;
 #X obj 339 40 tgl 15 0 empty \$0-cs_0-in 0 5 -5 0 10 -262144 -1 -1
 0 1;
 #X obj 354 40 tgl 15 0 empty \$0-cs_1-in empty 17 7 0 10 -262144 -1
@@ -36,7 +36,7 @@
 #X obj 444 40 tgl 15 0 empty \$0-cs_7-in empty 17 7 0 10 -262144 -1
 -1 0 255;
 #X obj 459 40 tgl 15 0 empty \$0-cs_8-in 8 5 -5 0 10 -262144 -1 -1
-0 1;
+1 1;
 #N canvas 1 134 537 300 cs_enable 0;
 #X obj 97 162 pack 0 0 0 0 0 0 0 0 0, f 54;
 #X obj 110 103 t b f;
@@ -98,7 +98,7 @@
 #X connect 24 0 19 0;
 #X connect 25 0 24 1;
 #X restore 339 59 pd cs_enable;
-#X obj 193 438 cnv 15 140 50 empty \$0-boardName /* 10 24 0 48 -233017
+#X obj 193 438 cnv 15 140 50 empty \$0-boardName /b00 10 24 0 48 -233017
 -66577 0;
 #X obj 384 420 loadbang;
 #X obj 384 486 s \$0-boardName;
@@ -349,7 +349,17 @@
 #X floatatom 515 312 5 0 0 0 - - -, f 5;
 #X msg 501 219 /s;
 #X obj 29 9 declare -path ../bin -path ../puremapping -path ../av;
-#N canvas 640 235 450 300 sendOSC 0;
+#X obj 252 355 tgl 15 0 empty empty monitor 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 195 312 t a;
+#X obj 2 181 bng 15 250 50 0 empty \$0-load_in empty 17 7 0 10 -262144
+-1 -1;
+#X msg 259 145 /cs/sensibility;
+#X msg 384 464 label \$1;
+#X obj 384 442 symbol \$1;
+#X obj 32 358 bng 15 250 50 0 reset_all_cs empty reset_all_cs 17 7
+0 10 -262144 -1 -1;
+#N canvas 634 261 450 300 sendOSCstream 0;
 #X obj 108 228 s to-all-arduino;
 #X obj 108 202 packOSCstream;
 #X msg 127 96 [;
@@ -393,34 +403,24 @@
 #X connect 8 0 6 1;
 #X connect 9 0 4 0;
 #X connect 10 0 8 0;
-#X restore 195 373 pd sendOSC;
-#X obj 252 355 tgl 15 0 empty empty monitor 17 7 0 10 -262144 -1 -1
-0 1;
-#X obj 195 312 t a;
-#X obj 2 181 bng 15 250 50 0 empty \$0-load_in empty 17 7 0 10 -262144
--1 -1;
-#X msg 259 145 /cs/sensibility;
-#X msg 384 464 label \$1;
-#X obj 384 442 symbol \$1;
-#X obj 32 358 bng 15 250 50 0 reset_all_cs empty reset_all_cs 17 7
-0 10 -262144 -1 -1;
+#X restore 195 373 pd sendOSCstream;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
-#X connect 2 0 54 0;
-#X connect 3 0 54 0;
+#X connect 2 0 53 0;
+#X connect 3 0 53 0;
 #X connect 4 0 9 0;
-#X connect 5 0 54 0;
-#X connect 6 0 54 0;
+#X connect 5 0 53 0;
+#X connect 6 0 53 0;
 #X connect 7 0 8 0;
 #X connect 8 0 6 0;
 #X connect 9 0 5 0;
 #X connect 10 0 11 0;
 #X connect 11 0 12 0;
-#X connect 12 0 54 0;
-#X connect 13 0 54 0;
+#X connect 12 0 53 0;
+#X connect 13 0 53 0;
 #X connect 14 0 15 0;
 #X connect 15 0 16 0;
-#X connect 16 0 54 0;
+#X connect 16 0 53 0;
 #X connect 17 0 26 1;
 #X connect 18 0 26 2;
 #X connect 19 0 26 3;
@@ -430,9 +430,9 @@
 #X connect 23 0 26 7;
 #X connect 24 0 26 8;
 #X connect 25 0 26 9;
-#X connect 26 0 54 0;
-#X connect 28 0 58 0;
-#X connect 30 0 58 0;
+#X connect 26 0 53 0;
+#X connect 28 0 57 0;
+#X connect 30 0 57 0;
 #X connect 31 0 40 1;
 #X connect 32 0 40 2;
 #X connect 33 0 40 3;
@@ -442,18 +442,18 @@
 #X connect 37 0 40 7;
 #X connect 38 0 40 8;
 #X connect 39 0 40 9;
-#X connect 40 0 54 0;
-#X connect 41 0 54 0;
-#X connect 42 0 54 0;
+#X connect 40 0 53 0;
+#X connect 41 0 53 0;
+#X connect 42 0 53 0;
 #X connect 44 0 26 0;
 #X connect 45 0 40 0;
-#X connect 46 0 54 0;
+#X connect 46 0 53 0;
 #X connect 48 0 47 0;
 #X connect 49 0 48 0;
-#X connect 50 0 54 0;
-#X connect 53 0 52 1;
-#X connect 54 0 52 0;
-#X connect 55 0 42 0;
-#X connect 56 0 54 0;
-#X connect 57 0 29 0;
-#X connect 58 0 57 0;
+#X connect 50 0 53 0;
+#X connect 52 0 59 1;
+#X connect 53 0 59 0;
+#X connect 54 0 42 0;
+#X connect 55 0 53 0;
+#X connect 56 0 29 0;
+#X connect 57 0 56 0;
