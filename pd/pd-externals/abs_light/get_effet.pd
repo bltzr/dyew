@@ -1,0 +1,18 @@
+#N canvas 803 645 504 358 10;
+#X obj 75 170 outlet;
+#X obj 90 83 r \$1-bus;
+#X obj 90 117 max;
+#X obj 109 144 f;
+#X obj 75 145 f;
+#X msg 48 71 0 0;
+#X obj 48 51 t b b;
+#X obj 48 29 r metro_get_effet\$2;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 0 4 1;
+#X connect 3 0 2 1;
+#X connect 4 0 0 0;
+#X connect 5 0 2 0;
+#X connect 6 0 5 0;
+#X connect 6 1 4 0;
+#X connect 7 0 6 0;

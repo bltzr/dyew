@@ -1,0 +1,8 @@
+#N canvas 374 445 450 300 10;
+#X obj 79 127 inlet;
+#X obj 46 197 outlet;
+#X obj 46 169 list 0;
+#X obj 46 96 gemreceive \$1 \$2;
+#X connect 0 0 2 1;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;

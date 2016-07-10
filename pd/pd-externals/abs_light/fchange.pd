@@ -1,0 +1,23 @@
+#N canvas 19 251 494 459 10;
+#X text 137 18 change mais avec des float \, donc il doit accepter
+un certain seuil de variation (paramettrable \$1));
+#X obj 163 327 outlet;
+#X obj 163 120 f;
+#X obj 46 250 spigot;
+#X obj 46 114 t f f;
+#X obj 73 168 -;
+#X obj 73 190 abs;
+#X obj 73 211 > \$1;
+#X obj 46 92 inlet;
+#X obj 178 89 inlet;
+#X connect 2 0 1 0;
+#X connect 2 0 5 1;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;
+#X connect 4 1 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 7 0 3 1;
+#X connect 8 0 4 0;
+#X connect 9 0 2 1;
+#X connect 9 0 5 1;
