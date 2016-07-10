@@ -1,4 +1,4 @@
-#N canvas 1105 554 682 526 10;
+#N canvas 1099 554 682 526 10;
 #X declare -path ../bin -path ../puremapping -path ../av;
 #X obj 195 103 tgl 15 0 empty \$0-cs_on-in empty 17 7 0 10 -262144
 -1 -1 0 1;
@@ -36,7 +36,7 @@
 #X obj 444 40 tgl 15 0 empty \$0-cs_7-in empty 17 7 0 10 -262144 -1
 -1 0 255;
 #X obj 459 40 tgl 15 0 empty \$0-cs_8-in 8 5 -5 0 10 -262144 -1 -1
-1 1;
+0 1;
 #N canvas 1 134 537 300 cs_enable 0;
 #X obj 97 162 pack 0 0 0 0 0 0 0 0 0, f 54;
 #X obj 110 103 t b f;
@@ -185,7 +185,7 @@
 #X restore 57 71 pd fsr_enable;
 #X msg 19 202 /s/save;
 #X msg 19 181 /s/load;
-#N canvas 474 580 1445 499 receiveOSC 0;
+#N canvas 471 581 1445 499 receiveOSC 0;
 #X obj 130 33 loadbang;
 #X obj 120 11 r OSCdispatch;
 #X msg 355 141 set \$1;
@@ -359,7 +359,7 @@
 #X obj 384 442 symbol \$1;
 #X obj 32 358 bng 15 250 50 0 reset_all_cs empty reset_all_cs 17 7
 0 10 -262144 -1 -1;
-#N canvas 634 261 450 300 sendOSCstream 0;
+#N canvas 631 274 450 300 sendOSCstream 0;
 #X obj 108 228 s to-all-arduino;
 #X obj 108 202 packOSCstream;
 #X msg 127 96 [;
@@ -406,6 +406,7 @@
 #X restore 195 373 pd sendOSCstream;
 #X msg 351 314 /led \$1;
 #X floatatom 352 288 5 0 0 0 - - -, f 5;
+#X obj 58 294 r OSCtoArduino;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
 #X connect 2 0 53 0;
@@ -461,3 +462,4 @@
 #X connect 57 0 56 0;
 #X connect 60 0 53 0;
 #X connect 61 0 60 0;
+#X connect 62 0 59 0;
