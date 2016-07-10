@@ -1,9 +1,9 @@
-#N canvas 1108 554 682 526 10;
+#N canvas 1105 554 682 526 10;
 #X declare -path ../bin -path ../puremapping -path ../av;
 #X obj 195 103 tgl 15 0 empty \$0-cs_on-in empty 17 7 0 10 -262144
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 123 104 tgl 15 0 empty \$0-fsr_on-in empty 17 7 0 10 -262144
--1 -1 1 1;
+-1 -1 0 1;
 #X msg 123 124 /fsr/on \$1;
 #X msg 195 124 /cs/on \$1;
 #X floatatom 260 86 5 1 1000 0 - #0-cs_sensibility-in -, f 5;
@@ -404,6 +404,8 @@
 #X connect 9 0 4 0;
 #X connect 10 0 8 0;
 #X restore 195 373 pd sendOSCstream;
+#X msg 351 314 /led \$1;
+#X floatatom 352 288 5 0 0 0 - - -, f 5;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
 #X connect 2 0 53 0;
@@ -457,3 +459,5 @@
 #X connect 55 0 53 0;
 #X connect 56 0 29 0;
 #X connect 57 0 56 0;
+#X connect 60 0 53 0;
+#X connect 61 0 60 0;
