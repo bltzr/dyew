@@ -34,7 +34,6 @@ SLIPEncodedSerial SLIPSerial(Serial);
 
 // prototypes
 void LEDcontrol(OSCMessage &msg, int addrOffset);
-void FSRcontrol(OSCMessage &msg, int addrOffset);
 void CScontrol(OSCMessage &msg, int addrOffset);
 void SystemControl(OSCMessage &msg, int addrOffset);
 void setup();
@@ -92,7 +91,7 @@ float cs_norm[9] ={0.,0.,0.,0.,0.,0.,0.,0.,0.};
 int fsr[9]={0,0,0,0,0,0,0,0,0};
 OSCBundle bundleOUT;
 
-/* parse message then with /fsr prefix */
+/* parse message then with /led prefix */
 void LEDcontrol(OSCMessage &msg, int addrOffset)
 {
   if (msg.size() == 0){
@@ -101,36 +100,6 @@ void LEDcontrol(OSCMessage &msg, int addrOffset)
   } else if (msg.isInt(0)) {
     boardParam.led_brightess = msg.getInt(0);
     analogWrite(LED_PIN, boardParam.led_brightess);
-  }
-}
-
-/* parse message then with /fsr prefix */
-void FSRcontrol(OSCMessage &msg, int addrOffset)
-{
-  if (msg.fullMatch("/on",addrOffset)) {
-    if (msg.size() == 0){
-      snprintf(path+offset,MAX_STRING_LENGTH-offset,"/fsr/on");
-      bundleOUT.add(path).add(boardParam.fsr_on);
-    } else if (msg.isInt(0)) {
-      boardParam.fsr_on = msg.getInt(0) > 0;
-    }
-  } else if ( msg.fullMatch("/enable",addrOffset) ){
-    if ( msg.size() == 0 ){
-      // if /enable is sent without any arguments, then send back active sensors list
-      snprintf(path+offset,MAX_STRING_LENGTH-offset,"/fsr/enable");
-      OSCMessage msgOUT(path);
-      for (i=0;i<FSR_COUNT;i++){
-        msgOUT.add(boardParam.fsr_enable[i]);
-      }
-      msgOUT.send(SLIPSerial);
-      SLIPSerial.endPacket();
-      msgOUT.empty();
-    } else {
-      // else treat values list to enable/disable sensors
-      for (i=0;i<msg.size() || i<FSR_COUNT;i++){
-        boardParam.fsr_enable[i] = msg.getInt(i) > 0;
-      }
-    }
   }
 }
 
@@ -202,11 +171,9 @@ void SystemControl(OSCMessage &msg, int addrOffset){
 /* send back all parameters throught OSC */
 void getAllParams(){
   OSCMessage get_on("/on");
-  FSRcontrol(get_on,0);
   CScontrol(get_on,0);
 
   OSCMessage get_enable("/enable");
-  FSRcontrol(get_enable,0);
   CScontrol(get_enable,0);
 
   OSCMessage get_sensibility("/sensibility");
@@ -250,7 +217,7 @@ void setup()
   for ( i=0; i<CS_COUNT ; i++)
   {
     boardParam.cs_enable[i]=true;
-    boardParam.cs_autocal=0xFFFFFFFF; // switch off autocalibration : used Pd's filter instead
+    boardParam.cs_autocal=0xFFFFFFFF; // switch off autocalibration : use Pd's filter instead
     cs[i].set_CS_AutocaL_Millis(boardParam.cs_autocal);
     cs[i].set_CS_Timeout_Millis(boardParam.cs_timeout);
   }
@@ -270,8 +237,6 @@ void receiveOSC(){
     }
 
     if(!bundleIN.hasError()) {
-      snprintf(path+offset,MAX_STRING_LENGTH-offset,"/fsr");
-      bundleIN.route(path, FSRcontrol);
       snprintf(path+offset,MAX_STRING_LENGTH-offset,"/cs");
       bundleIN.route(path, CScontrol);
       snprintf(path+offset,MAX_STRING_LENGTH-offset,"/s");
@@ -289,7 +254,7 @@ void scanCS()
   if ( boardParam.cs_on ){
     for ( cs_id=0 ; cs_id < CS_COUNT; cs_id++ ){
       int j = CS_COUNT;
-      if ( boardParam.cs_enable[cs_id] ){
+      if ( cs_id == 8 ){
           rawcount = cs[cs_id].capacitiveSensorRaw(boardParam.cs_sensibility);
           if (rawcount != -2){ // if sensor is timeout, resend last value
             cs_norm[cs_id] = (float) rawcount / (float) boardParam.cs_sensibility;
@@ -305,27 +270,6 @@ void scanCS()
   }
 }
 
-/* scan force sensing resistor */
-void scanFSR()
-{
-  if ( boardParam.fsr_on ){
-    //~ put COMMON_PIN to LOW to use it as a reference for the FSR
-    digitalWrite(COMMON_PIN,LOW);
-    for ( i=0;i<FSR_COUNT;i++){
-      if ( boardParam.fsr_enable[i] ){
-        // set an internal pull-up resistor on A0 pin
-        digitalWrite(fsr_pin[i],HIGH);
-        rawcount = analogRead(fsr_pin[i]);
-        fsr[i] = 1023 - rawcount;
-        digitalWrite(fsr_pin[i],LOW);
-      } else {
-        fsr[i] = -1;
-      }
-    }
-    snprintf(path+offset,MAX_STRING_LENGTH-offset,"/fsr");
-    bundleOUT.add(path).add(fsr[0]).add(fsr[1]).add(fsr[2]).add(fsr[3]).add(fsr[4]).add(fsr[5]).add(fsr[6]).add(fsr[7]).add(fsr[8]);
-  }
-}
 
 /* classic arduino loop */
 void loop()
@@ -333,8 +277,6 @@ void loop()
   receiveOSC();
 
   scanCS();
-  // Don't need Analog input for Dyew
-  // scanFSR();
 
   // compute and send scan loop duration over OSC
   end_scan = millis();
