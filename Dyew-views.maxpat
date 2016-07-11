@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1920.0, 225.0, 1440.0, 668.0 ],
+		"rect" : [ 86.0, 143.0, 1440.0, 668.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,29 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "gen.1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-10",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "generator.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 952.0, 14.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 947.0, 16.0, 300.0, 70.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"annotation" : "none",
 					"args" : [ "/track.1" ],
@@ -204,7 +227,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 629.0, 18.0, 300.0, 70.0 ],
+					"patching_rect" : [ 628.0, 18.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
@@ -601,14 +624,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-6::obj-24" : [ "live.text[9]", "live.text", 0 ],
+			"obj-14::obj-24" : [ "live.text[13]", "live.text", 0 ],
+			"obj-12::obj-24" : [ "live.text[5]", "live.text", 0 ],
+			"obj-4::obj-24" : [ "live.text", "live.text", 0 ],
 			"obj-5::obj-24" : [ "live.text[10]", "live.text", 0 ],
 			"obj-7::obj-24" : [ "live.text[11]", "live.text", 0 ],
-			"obj-12::obj-24" : [ "live.text[5]", "live.text", 0 ],
 			"obj-17::obj-24" : [ "live.text[8]", "live.text", 0 ],
-			"obj-13::obj-24" : [ "live.text[12]", "live.text", 0 ],
-			"obj-4::obj-24" : [ "live.text", "live.text", 0 ],
-			"obj-6::obj-24" : [ "live.text[9]", "live.text", 0 ],
-			"obj-14::obj-24" : [ "live.text[13]", "live.text", 0 ]
+			"obj-13::obj-24" : [ "live.text[12]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -708,6 +731,30 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "generator.view.maxpat",
+				"bootpath" : "~/dev/JamomaUserLibs/Z/generator",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.metro.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/metro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.namespacebrowser.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.get_onscreen_position.js",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -741,6 +788,22 @@
 			}
 , 			{
 				"name" : "j.oscinstance.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rand_dist_list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
  ],
