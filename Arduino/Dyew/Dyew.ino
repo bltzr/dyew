@@ -49,7 +49,7 @@ void loadParam();
 char path[MAX_STRING_LENGTH];
 unsigned char offset=0;
 
-long start_scan=0, end_scan=0;
+long start_scan=0;
 
 // 40M resistor between COMMON_PIN & sensor pin, for each sensor
 CapacitiveSensor   cs[] = { CapacitiveSensor(COMMON_PIN,0), /* CS0 */ \
@@ -80,6 +80,7 @@ typedef struct {
   uint16_t cs_timeout;
   unsigned long cs_autocal;
   uint8_t led_brightess;
+  uint8_t speedlimit;
 } BoardParam;
 /* end of global parameters */
 
@@ -159,6 +160,13 @@ void SystemControl(OSCMessage &msg, int addrOffset){
     loadParam();
   } else if ( msg.fullMatch("/getParams",addrOffset) ){
     getAllParams();
+  } else if ( msg.fullMatch("/speedlimit",addrOffset) ){
+    if (msg.size() == 0){
+      snprintf(path+offset,MAX_STRING_LENGTH-offset,"/s/speedlimit");
+      bundleOUT.add(path).add((int)boardParam.speedlimit);
+    } else if (msg.isInt(0)) {
+      boardParam.speedlimit=msg.getInt(0) > 0 ? msg.getInt(0) : 0;
+    }
   } else {
     // send back build data and time
     snprintf(path+offset,MAX_STRING_LENGTH-offset,"/s/date");
@@ -181,6 +189,9 @@ void getAllParams(){
 
   OSCMessage get_timeout("/timeout");
   CScontrol(get_timeout,0);
+
+  OSCMessage get_speedlimit("/speedlimit");
+  SystemControl(get_speedlimit,0);
 
   OSCMessage get_led("/led");
   LEDcontrol(get_led,0);
@@ -278,10 +289,13 @@ void loop()
 
   scanCS();
 
+  long end_scan = millis();
   // compute and send scan loop duration over OSC
-  end_scan = millis();
   snprintf(path+offset,MAX_STRING_LENGTH-offset,"/s/t");
   bundleOUT.add(path).add(end_scan - start_scan);
+  while ( (millis() - start_scan) < boardParam.speedlimit ){
+	;
+  }
   start_scan = millis();
 
   bundleOUT.send(SLIPSerial);
